@@ -1,8 +1,7 @@
 const navToggle = document.querySelector(".nav-toggle");
 const header = document.querySelector(".header");
 const primaryNav = document.querySelector(".primary-nav");
-const dropdownToggle = document.getElementById("dropdown-icon");
-const dropdownContainer = document.querySelectorAll(".dropdown");
+
 
 //navigation toggle animation
 
