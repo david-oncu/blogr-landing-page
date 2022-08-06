@@ -595,6 +595,7 @@ html{
     display: inline-block;
     width: fit-content;
     background-image: linear-gradient(90deg, var(--gradient-light-start), var(--gradient-light-end));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -878,10 +879,6 @@ html{
         align-self: center;
     }
 
-
-    .main-title{
-        /* font-size: 2.5rem; */
-    }
 
     .main-subtitle{
         padding: initial;
